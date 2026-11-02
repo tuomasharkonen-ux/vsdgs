@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VSDGS logo: a very serious die wearing a monocle">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#ffcb47"/>
+  <path d="M14 18 L28 21" stroke="#1a1400" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M36 21 L50 18" stroke="#1a1400" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="22" cy="29" r="4.5" fill="#1a1400"/>
+  <circle cx="42" cy="29" r="4.5" fill="#1a1400"/>
+  <circle cx="42" cy="29" r="9" fill="none" stroke="#1a1400" stroke-width="2.5"/>
+  <path d="M50 33 C55 40 52 46 55 54" fill="none" stroke="#1a1400" stroke-width="1.8" stroke-linecap="round"/>
+  <rect x="22" y="44" width="20" height="4" rx="2" fill="#1a1400"/>
+</svg>

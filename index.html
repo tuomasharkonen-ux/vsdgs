@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Very Serious Daily Game Studio — Small games, once a day</title>
+  <meta name="description" content="A tiny daily game studio by Tuomas Härkönen. One puzzle a day, made for friends." />
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <img src="images/logo.svg" alt="" width="40" height="40" />
+      <span>Very Serious Daily Game Studio</span>
+    </a>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <h1>A new challenge each day</h1>
+      <p class="lead">
+        I make simple, quick daily games — mostly for my friends,
+        and for anyone who wants a few minutes of fun with their coffee.
+      </p>
+      <a class="button" href="#games">Play today's games</a>
+    </section>
+
+    <section id="games" class="games">
+      <h2>The games</h2>
+      <div class="grid">
+        <a class="card" href="https://kymppijape.com/" target="_blank" rel="noopener">
+          <div class="phone">
+            <img src="images/kymppijape.jpg" alt="Kymppijape on a phone: Roll Dice screen" loading="lazy" width="390" height="844" />
+          </div>
+          <h3>Kymppijape</h3>
+          <p>Lock all 10 dice on the same number. How many rolls does it take you today? Pure skill, obviously.</p>
+          <span class="play">Play now →</span>
+        </a>
+
+        <a class="card" href="https://hintahukassa.com/" target="_blank" rel="noopener">
+          <div class="phone">
+            <img src="images/hintahukassa.jpg" alt="Hintahukassa on a phone: guess the price of a product" loading="lazy" width="390" height="844" />
+          </div>
+          <h3>Hintahukassa</h3>
+          <p>Guess the prices of three random products every day and challenge your friends.</p>
+          <span class="play">Play now →</span>
+        </a>
+
+        <a class="card" href="https://daily-terraform.vercel.app/" target="_blank" rel="noopener">
+          <div class="phone">
+            <img src="images/daily-terraform.jpg" alt="Daily Terraform on a phone: planet and action cards" loading="lazy" width="390" height="844" />
+          </div>
+          <h3>Daily Terraform</h3>
+          <p>Terraform today's planet in six generations. Everyone gets the same cards. Who scores the most?</p>
+          <span class="play">Play now →</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <img class="portrait" src="images/tuomas.svg" alt="Halftone portrait of Tuomas Härkönen" width="240" height="240" />
+      <div>
+        <h2>About</h2>
+        <p>
+          Hi, I'm <strong>Tuomas Härkönen</strong>. I build small daily games for fun
+          and share them with friends. Very Serious Daily Game Studio is the studio behind them.
+        </p>
+        <a class="button secondary" href="https://www.linkedin.com/in/harkonentuomas/" target="_blank" rel="noopener">
+          Connect on LinkedIn
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Tuomas Härkönen · Made with ☕ in Finland</p>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
